@@ -1,0 +1,98 @@
+@media(max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .about .about-donate-item .about-donate-box {
+        flex: 0 0 50%;
+        width: 50%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .about .main-about .about-img-box {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .about .main-about .about-text-box{
+        flex: 0 0 100%;
+        width: 100%;
+        padding-top: 50px;
+    }
+    /* .events .main-events .events-details {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .events .main-events .events-list-box {
+        flex: 0 0 100%;
+        width: 100%;
+        margin-top: 50px;
+    } */
+    
+} 
+
+@media(max-width: 750px) {
+    #header .menu {
+        display: none;
+    }
+    .banner .banner-info {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .banner .banner-img-box {
+        display: none;
+    }
+     .events .main-events .events-details {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .events .main-events .events-list-box {
+        flex: 0 0 100%;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .blog .blog-contant .blog-items {
+        flex: 0 0 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .footer .footer-items {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .footer .footer-contant-box {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 425px) {
+    .about .about-donate-item .about-donate-box {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .donate .donate-info .donate-info-text h5 {
+        font-size: 18px;
+    }
+    .donate .donate-info .donate-info-text p {
+        font-size: 22px;
+    }
+    .banner .banner-info h1 {
+        font-size: 30px;
+    }
+    .about .main-about .about-text-box .about-text-info h4 {
+        font-size: 25px;
+    }
+    .events .events-title h5 {
+        font-size: 18px;
+    }
+    .events .events-title p {
+        font-size: 25px;
+    }
+    .footer .footer-items .brand-contant .address-box p {
+        font-size: 14px;
+    }
+}
